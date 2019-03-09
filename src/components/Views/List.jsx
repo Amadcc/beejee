@@ -4,8 +4,8 @@ import {
   deleteTodo,
   toggleTodo,
   setVisibilityFilter
-} from "../Actions/ActionToDo";
-import { SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE } from "../Actions/ActionTypes";
+} from "../Actions/Actions";
+import { SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE } from "../Actions/Types";
 import { bindActionCreators } from "redux";
 
 const getVisibleTodos = (todos, filter) => {

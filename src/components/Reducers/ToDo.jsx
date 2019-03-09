@@ -11,7 +11,7 @@
 //     },
 // ]
 
-import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO } from "../Actions/ActionTypes";
+import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO } from "../Actions/Types";
 
 const INITIAL_DATA = [];
 
